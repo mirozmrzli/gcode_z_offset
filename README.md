@@ -6,7 +6,7 @@ Tool to move individual objects in g-code up/down by set ammount to nail down th
 export the gcode to a file (9_piece_test.gcode). This is a good time to take note which object is which.
 2. Run the python script
     - **python offsets.py 9_piece_test.gcode -0.02 0.005 out.gcode**
-    - This will offset z positions of each object by using SET_GCODE_OFFSET Z_ADJUST command.
+    - This will offset z positions of each object by using `SET_GCODE_OFFSET Z_ADJUST` command.
 3. Print and pick the one that looks the best.
 4. Use it's z offset to add to your z_offset in your printer.cfg file.
 5. ???
